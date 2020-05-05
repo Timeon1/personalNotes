@@ -9,7 +9,7 @@
 
 - 1 声明式： 我们只需要描述页面长什么样子就可以了，React负责更新页面
 - 2 基于组件（组件化）
-- 3 学习一次，随处使用（Web 、 安卓/ios、vr ...）
+- 3 学习一次，随处使用（Web 、 安卓/ios）
 
 ## React 的基本使用
 
@@ -37,3 +37,30 @@ const h1 = React.createElement(
 //同vue.createElement
 ```
 
+## React初始化项目 命令
+
+1. `npx create-react-app 项目名`
+
+2. `npm start/yarn start`启动项目(先进入项目目录)
+
+   
+
+## JSX
+
+- createElement不直观，效率不高
+- 故使用JSX （在js中写HTML格式代码）
+
+### JSX注意点
+
+1. JSX属性名：驼峰命名
+2. class  `=>` className
+3. 如果元素没有子节点 , 可以使用`单标签`结束 `<div />`
+4. 使用`()`来包裹住JSX代码 , 避免自动插入元素
+
+### JSX中使用js表达式
+
+1. 使用 `{}`  如:  `<div> 'hellow' { name } </div>`
+2. 原则上可以在`{}`中使用任何的JS表达式
+3. 不能再`{}`中使用 `语句` 如: `if`  `for`  ...
+4. `{}`中不能使用对象
+5. 可以在`{}`继续使用JSX
