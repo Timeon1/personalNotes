@@ -64,3 +64,56 @@ const h1 = React.createElement(
 3. 不能再`{}`中使用 `语句` 如: `if`  `for`  ...
 4. `{}`中不能使用对象
 5. 可以在`{}`继续使用JSX
+
+## React的条件渲染
+
+1. 使用 if else  
+
+   ```javascript
+   const loadData = () => {
+     if (isLoading) {
+       return <div>加载中...</div>
+     }
+   
+     return <div>加载完成</div>
+   }
+   const h1 = <div>{loadData()}</div>
+   ```
+
+   
+
+2. 三元表达式
+
+   ```javascript
+   const loadData = () => {
+     return isLoading ? <div>加载中...</div> : <div>加载完成后</div>
+   }
+   ```
+
+   
+
+3. 逻辑运算符
+
+   ```javascript
+   const loadData = () => {
+     return isLoading && <div>加载中...</div>
+   }
+   ```
+
+   
+
+## React的条件渲染
+
+- 使用数组map方法渲染列表
+
+- 注意key的唯一
+
+  ```javascript
+  <ul>
+    {list.map(item => (
+      <li key={item.id}>{item.name}</li>
+    ))}
+  </ul>
+  ```
+
+  
