@@ -1,5 +1,9 @@
 # 个人学习笔记
 
+[TOC]
+
+
+
 ## 日常总结
 
 [前端遍历数组几种方法]: https://github.com/Timeon1/personalNotes/blob/master/前端遍历数组几种方法.md
@@ -9,5 +13,6 @@
 
 ## react学习
 
-[react学习.md]: https://github.com/Timeon1/personalNotes/blob/master/react/react学习01.md
+[react学习01]: https://github.com/Timeon1/personalNotes/blob/master/react/react学习01.md
+[react02]: https://github.com/Timeon1/personalNotes/blob/master/react/react02.md
 
