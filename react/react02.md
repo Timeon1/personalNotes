@@ -189,7 +189,8 @@ this.setState({
 
 - 1 箭头函数：
 
-```js
+```javascript
+
 // 事件处理程序中，我们要的 this 是当前组件的实例对象（它是React在渲染组件时创建）
 class Hello extends React.Component {
   // 简化语法：
@@ -215,7 +216,8 @@ class Hello extends React.Component {
 
 - 2 使用 bind 方法解决：
 
-```js
+```javascript
+
 constructor() {
   this.handleClick = this.handleClick.bind(this)
 }
@@ -263,3 +265,4 @@ render () {
   return <input type="text" value={this.state.txt} onChange={this.changeTxt} />
 }
 ```
+
