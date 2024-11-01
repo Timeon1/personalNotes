@@ -5,9 +5,8 @@ function parseInt(string) {
 
   const strArr = string.split(' ');
 
-  const resArr = [];
+  let resArr = [];
 
-  console.log('strArr', strArr);
   strArr.map((item) => {
     if (num.includes(item)) {
       const nIndex = num.findIndex((_item) => _item == item);
@@ -18,7 +17,6 @@ function parseInt(string) {
     } else if (item.includes('-')) {
       const curArr = item.split('-');
       const curRes = [];
-      console.log('curArr', curArr);
       curArr.map((cItem) => {
         if (num.includes(cItem)) {
           const nIndex = num.findIndex((_item) => _item == cItem);
@@ -31,14 +29,24 @@ function parseInt(string) {
       resArr.push(curRes.reduce((x, c) => x + c, 0));
     } else if (item == 'hundred') {
       resArr[resArr.length - 1] = resArr[resArr.length - 1] * 100;
+
+    }else if(item == 'thousand'){
+
+      const sum = resArr.reduce((x, c) => x + c, 0)
+      resArr =  [sum * 1000];
+    }else if(item == 'million'){
+
+      const sum = resArr.reduce((x, c) => x + c, 0)
+      resArr =  [sum * 1000000];
     }
   });
+  
+  //sum
   const res = resArr.reduce((x, c) => x + c, 0);
-  console.log('resArr', resArr, res);
   return res;
 }
 
-//   const res = parseInt('one')
 
-parseInt('forty-six');
-parseInt('two hundred forty-six');
+// parseInt('forty-six');
+parseInt('six hundred sixty-six thousand six hundred sixty-six')
+// parseInt('two thousand forty-six');
