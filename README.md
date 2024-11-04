@@ -1,10 +1,10 @@
-# 个人学习笔记
+# Notes
 
 [TOC]
 
 
 
-## 日常总结
+## Summary
 
 [前端遍历数组几种方法](https://github.com/Timeon1/personalNotes/blob/master/前端遍历数组几种方法.md )
 
