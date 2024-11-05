@@ -11,3 +11,6 @@ CodeWar
 |3ky [Sudoku Solver](https://www.codewars.com/kata/5296bc77afba8baa690002d7/javascript) | [Javascript](./code/3ku-sudoku.js)
 
 |4ky [Snial](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/javascript) | [Javascript](./code/4ky-snial.js)
+
+|5ky [Moving Zeros To The Ends](https://www.codewars.com/kata/52597aa56021e91c93000cb0/javascript) | [Javascript](./code//5ky-movingZeros.js)
+
