@@ -16,3 +16,5 @@ CodeWar
 
 |5ky [Strings, strings, strings (Hard)](https://www.codewars.com/kata/56d9439813f38853b40000e4/javascript) | [Javascript](./code/6ky-strings.js)
 
+|6ky [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c/javascript) | [Javascript](./code/6ky-aretheysame.js)
+
