@@ -14,3 +14,5 @@ CodeWar
 
 |5ky [Moving Zeros To The Ends](https://www.codewars.com/kata/52597aa56021e91c93000cb0/javascript) | [Javascript](./code//5ky-movingZeros.js)
 
+|5ky [Strings, strings, strings (Hard)](https://www.codewars.com/kata/56d9439813f38853b40000e4/javascript) | [Javascript](./code/6ky-strings.js)
+
