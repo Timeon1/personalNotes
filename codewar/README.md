@@ -18,3 +18,5 @@ CodeWar
 
 |6ky [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c/javascript) | [Javascript](./code/6ky-aretheysame.js)
 
+|5ky [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001/javascript) | [Javascript](./code/5ky-rgbtohex.js)
+
