@@ -20,3 +20,5 @@ CodeWar
 
 |5ky [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001/javascript) | [Javascript](./code/5ky-rgbtohex.js)
 
+|5ky [Minimum difference in duplicate characters](https://www.codewars.com/kata/6574d1bde7484b5a56ec8f29/javascript) | [Javascript](./code/5ky-minimumdefference.js)
+
