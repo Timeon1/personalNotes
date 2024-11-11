@@ -22,3 +22,5 @@ CodeWar
 
 |5ky [Minimum difference in duplicate characters](https://www.codewars.com/kata/6574d1bde7484b5a56ec8f29/javascript) | [Javascript](./code/5ky-minimumdefference.js)
 
+|6ky [Bitcoin Statistics](https://www.codewars.com/kata/5a7f6b615084d75df6000032/javascript) | [Javascript](./code/6ky-bitcoinStatistics.js)
+
