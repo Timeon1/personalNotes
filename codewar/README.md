@@ -24,3 +24,5 @@ CodeWar
 
 |6ky [Bitcoin Statistics](https://www.codewars.com/kata/5a7f6b615084d75df6000032/javascript) | [Javascript](./code/6ky-bitcoinStatistics.js)
 
+|3ky [* Help the general decode secret enemy messages.](https://www.codewars.com/kata/52cf02cd825aef67070008fa) | [Javascript](./code/3ky-helpTheGeneralDecodeSecretEnemyMessages.js)
+
