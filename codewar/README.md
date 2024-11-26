@@ -26,3 +26,5 @@ CodeWar
 
 |3ky [* Help the general decode secret enemy messages.](https://www.codewars.com/kata/52cf02cd825aef67070008fa) | [Javascript](./code/3ky-helpTheGeneralDecodeSecretEnemyMessages.js)
 
+|6ky [* Simple Encryption #1 - Alternating Split](https://www.codewars.com/kata/57814d79a56c88e3e0000786) | [Javascript](./code/6ky-alternatingSplit.js)
+
