@@ -35,6 +35,7 @@ const downloadXVideo = (postUrl)=>{
         res.on('end',()=>{
             const regex = /https:\/\/twitsave\.com\/download\?[^"']+/g;
             const urls = list.join('').match(regex);
+            console.log('urls', urls)
             if(urls[0]){
                 downloadVideo(urls[0])
             }
@@ -42,4 +43,5 @@ const downloadXVideo = (postUrl)=>{
     })
 }
 
-downloadXVideo('https://x.com/FIFAWorldCup/status/1530187078608179200')
+// downloadXVideo('https://x.com/FIFAWorldCup/status/1530187078608179200')
+downloadXVideo('https://x.com/ezshine/status/1857292242765148364')

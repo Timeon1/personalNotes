@@ -28,3 +28,5 @@ CodeWar
 
 |6ky [* Simple Encryption #1 - Alternating Split](https://www.codewars.com/kata/57814d79a56c88e3e0000786) | [Javascript](./code/6ky-alternatingSplit.js)
 
+|6ky [Simple frequency sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc) | [Javascript](./code/6ky-simpleFrequencySort.js)
+
